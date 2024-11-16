@@ -1,2 +1,2 @@
-# Landind-page
-Landing Page
+# Tribute
+Tribute Page
