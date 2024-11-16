@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+  html, body{
+    height: 100vh;
+  }
+  body{
+  font-family: poppins, "sans-serif";
+  width:100%;
+  
+  }
+  #title{
+    font-size: 2.5rem;
+    letter-spacing:2px;
+    text-align: center;
+    padding: 8px 10px;
+  }
+  #main{
+    background: #eee; 
+  }
+  #main #intro{
+    font-size: 1.2rem;
+    margin-top:0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #img-div{
+    width:100%;
+    padding: 30px;
+    border-bottom: 5px solid #000; 
+    margin: 10px auto;
+  }
+  #img-div img{
+    max-width: 100%;
+    margin: auto;
+    border-radius: 6px;
+    height: auto;
+  }
+  #img-div #img-caption{
+    font-style: italic;
+    text-align: justify;
+    margin: 10px 20px;
+    padding: 8px;
+  }
+  #tribute-info{
+    font-size: 1.2rem;
+    padding: 6px;
+    font-weight: 600;
+    margin: 6px;
+    text-align: center;
+  }
+  #main .lastPara{
+    text-align:center;
+    margin: auto;
+    max-width:400px;
+    font-style: italic;
+   
+  }
+  #main ul li{
+    padding: 5px;
+    margin: 15px auto;
+    max-width: 400px;
+    text-align: justify;
+  } 
+  
+  .research{
+    width: 100%;
+    padding: 6px;
+    margin: 15px auto;
+    max-width: 90%;
+    color: #000;
+    font-size: 20px;
+    text-align: justify;
+  }
+  a{
+    color: hsl(261, 100%, 70%);
+    margin-left: 10px;
+  }
+  @media (max-width: 690px){
+    #img-div{
+    max-width:100%;
+    padding: 0;
+  }
+    #img-div img{
+        border-radius: 0;
+    }
+  }
+  
